@@ -25,4 +25,4 @@ const articles = await Article.find().sort({createdAt:'desc'});
 
 app.use("/articles", articlesRouter);
 
-app.listen(3000);
+app.listen(70000);
